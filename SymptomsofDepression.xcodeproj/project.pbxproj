@@ -11,6 +11,16 @@
 		C1882EE5286FCCFD00F1D50E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1882EE4286FCCFD00F1D50E /* ContentView.swift */; };
 		C1882EE7286FCCFE00F1D50E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1882EE6286FCCFE00F1D50E /* Assets.xcassets */; };
 		C1882EEA286FCCFE00F1D50E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1882EE9286FCCFE00F1D50E /* Preview Assets.xcassets */; };
+		C1882EF5286FCE9500F1D50E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1882EF3286FCE9500F1D50E /* Model.xcdatamodeld */; };
+		C1882EF7286FCEB600F1D50E /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1882EF6286FCEB600F1D50E /* PersistenceController.swift */; };
+		C1882EF9286FCEED00F1D50E /* PHQ9ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1882EF8286FCEED00F1D50E /* PHQ9ViewModel.swift */; };
+		C1882F01286FCF1000F1D50E /* HADSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1882EFA286FCF1000F1D50E /* HADSViewModel.swift */; };
+		C1882F02286FCF1000F1D50E /* GDSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1882EFB286FCF1000F1D50E /* GDSViewModel.swift */; };
+		C1882F03286FCF1000F1D50E /* CESDViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1882EFC286FCF1000F1D50E /* CESDViewModel.swift */; };
+		C1882F04286FCF1000F1D50E /* EPDSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1882EFD286FCF1000F1D50E /* EPDSViewModel.swift */; };
+		C1882F05286FCF1000F1D50E /* GDSSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1882EFE286FCF1000F1D50E /* GDSSViewModel.swift */; };
+		C1882F06286FCF1000F1D50E /* MDIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1882EFF286FCF1000F1D50E /* MDIViewModel.swift */; };
+		C1882F07286FCF1000F1D50E /* ZUNGViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1882F00286FCF1000F1D50E /* ZUNGViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		C1882EE4286FCCFD00F1D50E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1882EE6286FCCFE00F1D50E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1882EE9286FCCFE00F1D50E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1882EF4286FCE9500F1D50E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C1882EF6286FCEB600F1D50E /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		C1882EF8286FCEED00F1D50E /* PHQ9ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHQ9ViewModel.swift; sourceTree = "<group>"; };
+		C1882EFA286FCF1000F1D50E /* HADSViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HADSViewModel.swift; sourceTree = "<group>"; };
+		C1882EFB286FCF1000F1D50E /* GDSViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDSViewModel.swift; sourceTree = "<group>"; };
+		C1882EFC286FCF1000F1D50E /* CESDViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CESDViewModel.swift; sourceTree = "<group>"; };
+		C1882EFD286FCF1000F1D50E /* EPDSViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPDSViewModel.swift; sourceTree = "<group>"; };
+		C1882EFE286FCF1000F1D50E /* GDSSViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDSSViewModel.swift; sourceTree = "<group>"; };
+		C1882EFF286FCF1000F1D50E /* MDIViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDIViewModel.swift; sourceTree = "<group>"; };
+		C1882F00286FCF1000F1D50E /* ZUNGViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZUNGViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +93,8 @@
 		C1882EF0286FCDBF00F1D50E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C1882EF3286FCE9500F1D50E /* Model.xcdatamodeld */,
+				C1882EF6286FCEB600F1D50E /* PersistenceController.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -80,6 +102,14 @@
 		C1882EF1286FCDD200F1D50E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C1882EF8286FCEED00F1D50E /* PHQ9ViewModel.swift */,
+				C1882EFC286FCF1000F1D50E /* CESDViewModel.swift */,
+				C1882EFD286FCF1000F1D50E /* EPDSViewModel.swift */,
+				C1882EFE286FCF1000F1D50E /* GDSSViewModel.swift */,
+				C1882EFB286FCF1000F1D50E /* GDSViewModel.swift */,
+				C1882EFA286FCF1000F1D50E /* HADSViewModel.swift */,
+				C1882EFF286FCF1000F1D50E /* MDIViewModel.swift */,
+				C1882F00286FCF1000F1D50E /* ZUNGViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,8 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1882F02286FCF1000F1D50E /* GDSViewModel.swift in Sources */,
+				C1882F06286FCF1000F1D50E /* MDIViewModel.swift in Sources */,
+				C1882F07286FCF1000F1D50E /* ZUNGViewModel.swift in Sources */,
+				C1882F03286FCF1000F1D50E /* CESDViewModel.swift in Sources */,
+				C1882F01286FCF1000F1D50E /* HADSViewModel.swift in Sources */,
 				C1882EE5286FCCFD00F1D50E /* ContentView.swift in Sources */,
 				C1882EE3286FCCFD00F1D50E /* SymptomsofDepressionApp.swift in Sources */,
+				C1882EF5286FCE9500F1D50E /* Model.xcdatamodeld in Sources */,
+				C1882EF9286FCEED00F1D50E /* PHQ9ViewModel.swift in Sources */,
+				C1882EF7286FCEB600F1D50E /* PersistenceController.swift in Sources */,
+				C1882F04286FCF1000F1D50E /* EPDSViewModel.swift in Sources */,
+				C1882F05286FCF1000F1D50E /* GDSSViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +403,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1882EF3286FCE9500F1D50E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1882EF4286FCE9500F1D50E /* Model.xcdatamodel */,
+			);
+			currentVersion = C1882EF4286FCE9500F1D50E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C1882ED7286FCCFD00F1D50E /* Project object */;
 }
