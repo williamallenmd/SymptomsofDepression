@@ -28,11 +28,7 @@ struct PrimaryMatrixView: View {
             })
         }
         HStack {
-          NavigationLink(
-            destination: ProtectiveFactorsMatrix(),
-            label: {
-              Navigate2(text: "Protection \nAgainst \nDepression", textColor: .primary, boxColor: .color4)
-            })
+    
           
           NavigationLink(
             destination: RatingScalesMatrix(),
@@ -41,34 +37,9 @@ struct PrimaryMatrixView: View {
             })
 
         }
-        HStack {
-          NavigationLink(
-            destination: PreventionMatrix(),
-            label: {
-              Navigate2(text: "Depression\nPrevention\nStrategies", textColor: .primary, boxColor: .color7)
-            })
-          NavigationLink(
-            destination: SelfHarmMatrix(),
-            label: {
-              Navigate2(text: "Depression\nAnd\nSelf-harm", textColor: .primary, boxColor: .color8)
-            })
 
-        }
 
-        HStack {
 
-          NavigationLink(
-            destination: DummyView(),
-            label: {
-              Navigate2(text: "The \nQuiz ", textColor: .primary, boxColor: .color14)
-            })
-          
-          NavigationLink(
-            destination: DummyView(),
-            label: {
-              Navigate2(text: "Find \nHelp", textColor: .primary, boxColor: .color15)
-            })
-        }
       }
       Spacer()
     }
