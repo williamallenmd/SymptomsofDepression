@@ -15,7 +15,7 @@ struct SingleAppView: View {
     VStack {
       if self.isUnlocked {
         NavigationView {
-          PrimaryMatrixView()
+          HomePage()
             .navigationTitle("Depression School")
             .navigationBarTitleDisplayMode(.inline)
             .ignoresSafeArea(edges: .bottom)
