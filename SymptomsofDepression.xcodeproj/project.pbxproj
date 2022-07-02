@@ -55,6 +55,9 @@
 				C1882EE4286FCCFD00F1D50E /* ContentView.swift */,
 				C1882EE6286FCCFE00F1D50E /* Assets.xcassets */,
 				C1882EE8286FCCFE00F1D50E /* Preview Content */,
+				C1882EF0286FCDBF00F1D50E /* Models */,
+				C1882EF1286FCDD200F1D50E /* Views */,
+				C1882EF2286FCDDB00F1D50E /* ViewModels */,
 			);
 			path = SymptomsofDepression;
 			sourceTree = "<group>";
@@ -65,6 +68,27 @@
 				C1882EE9286FCCFE00F1D50E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1882EF0286FCDBF00F1D50E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1882EF1286FCDD200F1D50E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1882EF2286FCDDB00F1D50E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
