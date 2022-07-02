@@ -102,6 +102,13 @@
 		C1882EF1286FCDD200F1D50E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1882EF2286FCDDB00F1D50E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
 				C1882EF8286FCEED00F1D50E /* PHQ9ViewModel.swift */,
 				C1882EFC286FCF1000F1D50E /* CESDViewModel.swift */,
 				C1882EFD286FCF1000F1D50E /* EPDSViewModel.swift */,
@@ -110,13 +117,6 @@
 				C1882EFA286FCF1000F1D50E /* HADSViewModel.swift */,
 				C1882EFF286FCF1000F1D50E /* MDIViewModel.swift */,
 				C1882F00286FCF1000F1D50E /* ZUNGViewModel.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		C1882EF2286FCDDB00F1D50E /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
